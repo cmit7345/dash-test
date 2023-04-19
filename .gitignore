@@ -1,0 +1,6 @@
+# Environment
+env.py
+
+# Virtrual Environment and Binaries
+.venv
+poetry.lock

@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "poc-streamlit"
+version = "0.1.0"
+description = "Proof of concept for Streamlit"
+authors = ["Chris Mitchell <cmitchell@bink.com>"]
+license = "Proprietory"
+readme = "README.md"
+packages = [{include = "poc_streamlit"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.0.0"
+pandas = "^2.0.0"
+numpy = "^1.0.0"
+snowflake-connector-python = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
